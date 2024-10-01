@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
+}
+.container {
+  margin: auto;
+  padding: auto;
+  max-width: 1440px;
+  padding: 20px 0px;
+  background-color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+.home1 {
+  display: flex;
+  gap: 30px;
+}
+.home1 a {
+  font-family: Libre Franklin;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: all 0.7s linear;
+}
+.home1 a:hover {
+  color: blue;
+}
+section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 100px;
+}
+.creativity {
+  display: flex;
+  gap: 50px;
+}
+.japan h4 {
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+.japan h1 {
+  font-family: Tenor Sans;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+  margin-bottom: 20px;
+  width: 460px;
+}
+.japan p {
+  font-family: Source Serif Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #666666;
+  margin-bottom: 20px;
+  width: 350px;
+}
+.japan b {
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: black;
+}
+main {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 100px;
+  padding: 110px;
+}
+.page {
+  width: 300px;
+  padding: 10px;
+}
+.img1 {
+  margin-bottom: 20px;
+}
+.page h4 {
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+.page h2 {
+  font-family: Tenor Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 20px;
+  width: 340px;
+}
+.page b {
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.main1 {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 100px;
+  margin-top: 50px;
+  padding: 110px;
+}
+.page1 {
+  width: 200px;
+  padding: 10px;
+}
+.img1 {
+  margin-bottom: 20px;
+}
+.page1 h4 {
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+.page1 h2 {
+  font-family: Tenor Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.page1 b {
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.btn2 {
+  width: 200px;
+  height: 50px;
+  margin-left: 40%;
+  background-color: #fff;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+  padding-left: 25px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+  margin-bottom: 30px;
+}
+.btn2:hover {
+  background-color: #000;
+  color: white;
+}
+.btn2:active {
+  transform: scale(0.9);
+}
+.page1:hover {
+  transform: scale(1.05);
+}
+.page:hover {
+  transform: scale(1.05);
+}
+.page2:hover {
+  transform: scale(1.05);
+}
+
+.main2 {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 430px;
+  margin-top: 50px;
+  padding: 100px;
+}
+.page2 {
+  width: 500px;
+  padding: 10px;
+}
+.img1 {
+  margin-bottom: 20px;
+}
+.page2 h4 {
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+.page2 h2 {
+  font-family: Tenor Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.page2 b {
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+footer {
+  background-color: #141414;
+  width: 100%;
+  padding: 50px;
+  color: white;
+}
+.qator1 {
+  display: flex;
+  gap: 20px;
+
+  align-items: end;
+
+  margin-bottom: 30px;
+}
+.qator1 p {
+  color: #333333;
+  font-family: Libre Franklin;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.qator2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 140px;
+  margin-top: 100px;
+  font-family: Libre Franklin;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+.qator3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+.style_p p {
+  font-family: Libre Franklin;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.style_ohiri {
+  width: 300px;
+  height: 50px;
+  background-color: white;
+}
+.style_ohiri input {
+  width: 200px;
+  height: 45px;
+  border: none;
+  padding-left: 20px;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.btn4 {
+  width: 95px;
+  height: 50px;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s linear;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+}
+.btn4:hover {
+  background-color: blue;
+}
+.qator4 {
+  display: flex;
+  justify-content: start;
+  gap: 200px;
+  align-items: center;
+  margin-top: 80px;
+}
+.style_p2 p {
+  font-family: Libre Franklin;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 30px;
+}
+.style_p2 h4 {
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 30px;
+  opacity: 0.5;
+}
